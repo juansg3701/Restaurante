@@ -14,13 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        if (auth()->user()) {
-            $this->middleware('');
-        }
-        else{
-        $this->middleware('auth');    
-        }
-        
+        $this->middleware('auth');
     }
 
     /**
@@ -29,8 +23,7 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {   
-        
+    {
         return view('home');
     }
 }

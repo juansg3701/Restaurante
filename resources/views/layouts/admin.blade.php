@@ -467,7 +467,7 @@
                             <p><a href="" data-target="#modal-no4" data-toggle="modal" class="nav-link"><button class="btn btn-primary">Ingresar para añadir</button></a></p>
                             @endif
                       
-                            
+                          
                           </div>
                         </div>
                       </div>

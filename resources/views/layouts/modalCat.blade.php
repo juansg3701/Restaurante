@@ -10,10 +10,8 @@ role="dialog" tabindex="-1" id="modal-no4">
         </button>
         
 			</div>
-			
-		</div>
-	</div>
-
+      </div>
+    </div>
 
 	<section class="ftco-section img" style="background-image: url(images/bg_3.jpg)" data-stellar-background-ratio="0.5">
 		<div class="container">
@@ -102,3 +100,5 @@ role="dialog" tabindex="-1" id="modal-no4">
 
 
 </div>
+        
+      

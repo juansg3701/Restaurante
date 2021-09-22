@@ -55,12 +55,8 @@
                               @endif
                             </td>
                             <td>
-                              @if($p->id_pedido)
-                            
-                               @include('pedidos.modalDPedido')
-                    
-                    
-                               
+                            @if($p->id_pedido)
+                            @include('pedidos.modalDPedido')
                             <a href="" data-target="#modalDP-{{$p->id_pedido}}" data-toggle="modal"><button class="btn btn-danger">Mostrar</button></a>
                             @endif
                           </td>
